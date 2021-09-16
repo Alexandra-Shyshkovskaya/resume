@@ -4,9 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+<!-- main container-->
+<div class="wrapper">
+    <aside class="sidebar">
+        <img class="my-photo" src="./img/photo.jpg" alt="My photo">
+
+
+        <div>
+            <!-- contacts container -->
+            <div class="contacts-container">
+                <h3 class="contacts-title">Contacts </h3>
+                <div>
+                    <span class="contacts-link-type">C:</span> <a class="contacts-link" href="tel:+380962975642">+38 096
+                        297 56 42</a>
+                </div>
+                <div>
+                    <span class="contacts-link-type">E:</span> <a class="contacts-link"
+                        href="mailto:alexis.shyshka@gmail.com">alexis.shyshka@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- Tech skills container-->
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">Tech Skills</h3>
+                <ul>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Microsoft Office </span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Kayako</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Slack</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">JIRA</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">BigQuery</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">1C</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Twinkle</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">OpenCart</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-text">Adobe Photoshop</span></li>
+                </ul>
+            </div>
+
+            <!-- Soft skills container-->
+            <div class="soft-skills-container">
+                <h3 class="soft-skills-title">Soft Skills</h3>
+                <ul>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Сommunication</span> </li>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Adaptability</span></li>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Teamwork</span></li>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Independence</span></li>
+                    <li class="soft-skills-item"> <span class="soft-skills-text">Self-discipline</span></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+
+    <!-- about me container-->
+    <div class="about-me-container">
+        <!--about me main info -->
+        <div class="info-container"> 
+            <h1 class="name"> Alexandra Shyshkovskaya</h1>
+            <h2 class="profession">Front-End Developer</h2>
+
+            <p class="description">Date of birth: 12 May 1993</p>
+            <p class="description">Place of residence: Kyiv</p>
+            <p class="description">Employment: Full</p>
+            <p class="description">Marital status: not married, no children</p>
+            <p class="description">Business travel readiness: no</p>
+        </div>
+
+        <!-- projects container -->
+        <div class="project-container">
+            <h3 class="about-me-title">Projects</h3>
+            <ol>
+                <li class="project-item"> <a class="project-link"
+                        href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/ </a>
+                    <span class="dots">....................................</span>
+                    <span> <b>[</b> <span class="tech-name"> HTML5, CSS3 </span><b>]</b> </span>
+                </li>
+                <li class="project-item"> <a class="project-link"
+                        href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/ </a>
+                    <span class="dots">...................................</span>
+                    <span> <b>[</b> <span class="tech-name"> JavaScript </span> <b>]</b></span>
+                </li>
+                <li class="project-item"> <a class="project-link"
+                        href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/ </a>
+                    <span class="dots">...................................</span>
+                    <span> <b>[</b><span class="tech-name"> React.js, Node.js </span> <b>]</b></span>
+                </li>
+            </ol>
+        </div>
+
+        <!--work experience-->
+        <div>
+            <h3 class="about-me-title">Work Experience</h3>
+
+            <!--company 1-->
+            <div>
+                <h4 class="profession-title">Head of moderation <span class="profession-company">Team IZI</span></h4>
+                <span class="prof-edu-time">September 2019 - up to now <span class="profession-divider">|</span> Ukraine
+                </span>
+
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Search and training of moderators for outsourcing</li>
+                    <li class="profession-duties-item">Preparation of materials, instructions for the work of moderators
+                    </li>
+                    <li class="profession-duties-item">Help, support for moderators</li>
+                    <li class="profession-duties-item">Uploading statistics of moderators</li>
+                    <li class="profession-duties-item">Payroll for moderators</li>
+                    <li class="profession-duties-item">Self-moderation of the catalog</li>
+                </ul>
+
+            </div>
+
+            <!--company 2-->
+            <div>
+                <h4 class="profession-title">Specialist in working with customers <span class="profession-company">Team
+                        IZI</span> </h4>
+                <span class="prof-edu-time">October 2018 - up to now <span class="profession-divider">|</span> Ukraine
+                </span>
+
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Handling copyright infringement complaints</li>
+                    <li class="profession-duties-item">Processing complaints for moderation</li>
+                    <li class="profession-duties-item">Writing tasks to improve functionality in JIRA</li>
+                    <li class="profession-duties-item">Changing attributes in a directory</li>
+                </ul>
+
+            </div>
+
+            <!--company 3-->
+            <div>
+                <h4 class="profession-title">Specialist in working with customers <span class="profession-company">Team
+                        BIGL </span> </h4>
+                <span class="prof-edu-time">June 2017 - July 2020 <span class="profession-divider">|</span> Ukraine
+                </span>
+
+                <ul class="profession-duties">
+                    <li class="profession-duties-item">Moderation of reviews</li>
+                    <li class="profession-duties-item">Handling copyright infringement complaints</li>
+                    <li class="profession-duties-item">Content Complaints Handling</li>
+                    <li class="profession-duties-item">Writing tasks to improve functionality in JIRA</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!--Education-->
+        <div>
+            <h3 class="about-me-title">Education</h3>
+            <div>
+                <p class="education-name">Mykhailo Ostrohradskyi Kremenchuk National University</p>
+                <p class="education-specialty">Computerized control systems and automation </p>
+                <span class="prof-edu-time">September 2012 - June 2015 <span class="profession-divider">|</span> Ukraine
+                </span>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
 </body>
 </html>
