@@ -11,6 +11,9 @@ body {
   padding-right: 20px;
   font-family: Montserrat;
 }
+.icon {
+  fill: #ff6b08;
+}
 
 .wrapper {
   background: #fff;
@@ -21,14 +24,17 @@ body {
 }
 
 .sidebar {
-  background: #1e2939;
+  background: #396b37;
   width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .my-photo {
-  width: 370px;
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .about-me-container {
@@ -39,50 +45,43 @@ body {
 }
 
 .contacts-container {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
 .contacts-title {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
 }
 
 .contacts-link {
+  padding-left: 10px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #434c5a;
-}
-
-.contacts-link-type {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
   color: #fff;
-  margin-right: 10px;
 }
 
 .tech-skills-title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #fff;
 }
 
 .tech-skills-container {
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .tech-skills-item {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
@@ -96,19 +95,19 @@ body {
 .soft-skills-container {
   margin-left: 41px;
   margin-right: 41px;
-  margin-top: 52px;
+  margin-top: 10px;
 }
 
 .soft-skills-title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 17px;
+  margin-bottom: 5px;
   color: #fff;
 }
 
 .soft-skills-item {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   color: #ff6b08;
@@ -119,35 +118,75 @@ body {
   color: #d8dadd;
 }
 
-.profession {
-  font-size: 14px;
+.languages-container {
+  margin-left: 41px;
+  margin-right: 41px;
+  margin-top: 10px;
+}
+
+.languages-title {
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 23px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.languages-item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+}
+
+.languages-text {
+  color: #d8dadd;
+}
+
+.profession {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
 }
 
 .name {
-  font-size: 45px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 89px;
+  margin-top: -105px;
 }
 
-.description {
+.my-goal {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.goal {
   font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+}
+.description {
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   margin-top: 24px;
 }
 
 .info-container {
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 
 .about-me-title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .project-link {
@@ -164,25 +203,42 @@ body {
   line-height: 24px;
 }
 
-.dots {
-  color: #bebebe;
-  font-weight: 100;
-}
 .project-item {
   font-weight: 700;
   margin-left: 17px;
 }
 
 .project-container {
-  margin-bottom: 55px;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.project-text {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project-text-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
 }
 
 .profession-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .profession-company {
@@ -198,8 +254,8 @@ body {
   color: #000000;
 }
 .profession-duties {
-  margin-top: 14px;
-  margin-bottom: 55px;
+  margin-top: 10px;
+  margin-bottom: 15px;
   padding-left: 13px;
 }
 .profession-duties-item {
@@ -212,16 +268,16 @@ body {
 
 .education-name {
   color: #ff6b08;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 24px;
-  margin-bottom: 15px;
+  margin-bottom: 3px;
 }
 
 .education-specialty {
   color: #000000;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 14px;
+  margin-bottom: 3px;
 }
