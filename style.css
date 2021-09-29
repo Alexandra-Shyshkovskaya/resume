@@ -24,17 +24,17 @@ body {
 }
 
 .sidebar {
-  background: #396b37;
+  background: #272727;
   width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .my-photo {
-  width: 350px;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 250px;
+  border-radius: 20%;
+  margin-left: 23px;
+  margin-right: 20px;
 }
 
 .about-me-container {
@@ -45,7 +45,7 @@ body {
 }
 
 .contacts-container {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 .contacts-link {
-  padding-left: 10px;
+  padding-left: 5px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -189,11 +189,9 @@ body {
   margin-bottom: 10px;
 }
 
-.project-link {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #595959;
+.icon-2 {
+  fill: #ff6b08;
+  margin-left: 2px;
 }
 
 .tech-name {
@@ -232,7 +230,9 @@ body {
   line-height: 24px;
   color: #ff6b08;
 }
-
+.project-name {
+  color: #ff6b08;
+}
 .profession-title {
   font-size: 14px;
   font-weight: 700;

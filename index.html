@@ -12,12 +12,19 @@
 <!-- main container-->
 <div class="wrapper">
     <aside class="sidebar">
-        <img class="my-photo" src="./img/photo.jpg" alt="My photo">
+        <img class="my-photo" src="./img/img-me.jpg"alt="My photo">
 
         <div>
             <!-- contacts container -->
             <div class="contacts-container">
                 <h3 class="contacts-title">Contacts</h3>
+               <div>
+                    <svg class="icon" width="15" height="15">
+                        <use href="img/symbol-defs.svg#icon-location"> </use>
+                    </svg>
+                    <a class="contacts-link">Kyiv, Ukraine</a>
+                </div>
+                
                 <div>
                     <svg class="icon" width="15" height="15">
                         <use href="img/symbol-defs.svg#icon-phone"> </use>
@@ -107,8 +114,9 @@
             <h1 class="name"> Alexandra Shyshkovskaya</h1>
             <h2 class="profession">Front-End Developer</h2>
 
-            <p class="my-goal"><span class="goal">GOAL:</span> 
-            <br>I'm looking for interesting job as front-end developer in friendly, thriving and exciting company to develop my skills as well as grove with team</br>
+            <p class="my-goal"><span class="goal">Summary:</span> 
+            <br>My goal at this stage is to develop in the direction of JavaScript, React and find interesting job as front-end
+            developer in friendly, thriving and exciting company to develop my skills as well as grove with team</br>
             </p>
         </div>
 
@@ -117,14 +125,24 @@
             <h3 class="about-me-title">Projects</h3>
             <ul>
                 <li class="project-item">
-                    <p class="project-title">Project: <span class="project-text-title">Ice Cream</span></p>
-                    <p class="project-title">Link: <span class="project-text">https://github.com/Alexandra-Shyshkovskaya/ice-cream-project</span></p> 
+                    <p class="project-title">Project: <span>
+                        <a class="project-name" href="https://github.com/Alexandra-Shyshkovskaya/ice-cream-project">
+                            <svg class="icon-2" width="15" height="15">
+                                <use href="img/symbol-defs.svg#icon-icecream"> </use>
+                            </svg>
+                             Ice Cream
+                        </a></span></p>
                     <p class="project-title">Technologies: <span> <b>[</b> <span class="tech-name"> HTML5, CSS3, SASS, JS, Parsel, Git </span><b>]</b> </span></p>
                     <p class="project-title">About project: <span class="project-text">mobile-first adaptive landing page to introduce and attract clients to ice-cream production</span></p>
                 </li>
                 <li class="project-item">
-                    <p class="project-title">Project: <span class="project-text-title">Filmoteka</span></p>
-                    <p class="project-title">Link: <span class="project-text">https://github.com/Alexandra-Shyshkovskaya/project-Filmoteka</span></p>
+                    <p class="project-title">Project:  <span>
+                        <a class="project-name" href="https://github.com/Alexandra-Shyshkovskaya/project-Filmoteka">
+                            <svg class="icon-2" width="15" height="15">
+                                <use href="img/symbol-defs.svg#icon-video-camera"> </use>
+                            </svg>
+                             Filmoteka
+                        </a></span></p>
                     <p class="project-title">Technologies: <span> <b>[</b> <span class="tech-name"> HTML5, CSS3, SASS, JS, Parsel, Git </span><b>]</b> </span></p>
                     <p class="project-title">About project: <span class="project-text">mobile-first adaptive site with authorization, profile page, ability to add and delete movies </span></p>
                 </li>
