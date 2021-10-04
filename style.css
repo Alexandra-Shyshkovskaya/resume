@@ -233,6 +233,13 @@ body {
 .project-name {
   color: #ff6b08;
 }
+
+.project-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+}
 .profession-title {
   font-size: 14px;
   font-weight: 700;
